@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2.5em;
+}
+
+#headerphoto {
+    display: flex;
+    justify-content: space-between;
+}
+
+#benphoto {
+    flex: none;
+    margin-left: 10px;
+}
