@@ -3,3 +3,13 @@
     padding: 10px;
     margin: 10px;
 }
+
+#imgframe {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    max-width: 750px;
+}

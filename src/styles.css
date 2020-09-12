@@ -1,3 +1,7 @@
+html {
+    min-width: 500px;
+}
+
 * {
     font-family: 'Sorts Mill Goudy', serif;
 }
@@ -6,19 +10,21 @@ a {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-body {
-    margin: 10px auto;
-    width: 70%;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    min-width: fit-content;
+}
+nav ul :last-child, footer ul :last-child {
+    margin-right: 0px;
 }
 a {
     text-decoration: none;
@@ -61,11 +67,23 @@ footer {
     margin-top: 30px;
 }
 
-ul.posts { 
+/* ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+} */
+
+body {
+    margin: 10px auto;
+    width: 70%;
+    /* background-color: #41403c;
+    color: #5f5239; */
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+    }
+  }

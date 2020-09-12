@@ -13,6 +13,8 @@ export class ProjectcardComponent implements OnInit {
 
   @Input() description : string;
 
+  @Input() myimg : string = "../../assets/FionaFace.jpg";
+
   constructor() { }
 
   ngOnInit() {
