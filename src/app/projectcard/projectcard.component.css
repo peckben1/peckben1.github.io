@@ -2,14 +2,22 @@
     border: solid #999 1px;
     padding: 10px;
     margin: 10px;
-}
-
-#imgframe {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
-    width: 100%;
-    max-width: 750px;
+    max-width: 300px;
+    margin: 15px 15px 15px 15px;
+}
+
+@media (min-width: 1050px) {
+    .cardstyle {
+        flex-direction: row;
+    }
+
+    img {
+        margin-right: 50px;
+    }
 }
