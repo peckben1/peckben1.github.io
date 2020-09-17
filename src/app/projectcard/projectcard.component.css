@@ -8,8 +8,9 @@
 }
 
 img {
-    max-width: 300px;
+    width: 300px;
     margin: 15px 15px 15px 15px;
+    flex-shrink: 0;
 }
 
 @media (min-width: 1050px) {
