@@ -22,13 +22,12 @@ h2 {
 
 #benphoto {
     max-width: 100%;
+    max-width: 300px;
+    flex: none;
+    margin: 25px 0px 30px 20px;
 }
 
-@media only screen and (min-width: 1048px) {
+/* @media only screen and (min-width: 1048px) {
     #benphoto {
-        flex: none;
-        /* margin: 25px 0px 30px 20px; */
-        /* float: right; */
-        max-width: 300px;
     }
-  }
+  } */
