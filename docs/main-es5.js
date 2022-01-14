@@ -45,7 +45,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<router-outlet></router-outlet>";
+    __webpack_exports__["default"] = "<nav id=\"navbar\">\r\n    <ul>\r\n      <li><a routerLink=\"/\" routerLinkActive=\"active\">Home</a></li>\r\n      <!-- <li><a routerLink=\"/about\">About</a></li> -->\r\n      <li><a routerLink=\"/projects\" routerLinkActive=\"active\">Projects</a></li>\r\n      <li><a routerLink=\"/experience\" routerLinkActive=\"active\">Experience</a></li>\r\n    </ul>\r\n  </nav>\r\n\r\n<router-outlet></router-outlet>\r\n\r\n<footer>\r\n    <ul>\r\n      <li><a href=\"mailto:benrpeck16@gmail.com\">email</a></li>\r\n      <li><a href=\"https://github.com/peckben1\">github.com/peckben1</a></li>\r\n      <li><a href=\"https://www.linkedin.com/in/benjamin-peck-247ab5122\">LinkedIn</a></li>\r\n      <li><a href=\"https://peckben1.medium.com/\">Medium</a></li>\r\n      <li><a href=\"assets/BenPeckResumeData.pdf\" download>Download my Resume</a></li>\r\n    </ul>\r\n  </footer>";
     /***/
   },
 
