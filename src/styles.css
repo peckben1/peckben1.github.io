@@ -85,6 +85,7 @@ ul.posts li {
 body {
     margin: 10px 15vw;
     width: 70vw;
+    max-width: 1200px;
     min-height: 100vh;
     /* background-color: #41403c;
     color: #5f5239; */
