@@ -14,17 +14,38 @@ h5 {
     font-size: 15px;
 }
 
+#honkbox {
+    display: flex;
+    flex-direction: row;
+}
+
 #leftpillar {
-    float: left;
+    margin-right: 20px;
 }
 
 #rightpillar {
-    float: right;
+    margin-left: 20px;
 }
 
 .pillar {
-    width: 30px;
+    width: 20px;
+    flex: none;
+    height: inherit;
+    margin-top: 10px;
+
+    border-top: 1px solid black;
+}
+
+.pillarcore {
+    width: 60%;
     height: 100%;
-    background-color: aqua;
-    margin: 20px;
+    margin: auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.pillarline {
+    width: calc(50% - 1px);
+    height: calc(100% + 5px);
+    border-right: 2px solid black;
 }

@@ -6,3 +6,19 @@
     position: relative;
     top : -40px;
 } */
+
+/* below here: WIP floating navbar and footer */
+
+/* footer {
+    position: fixed;
+    bottom: 20px;
+    width: 70%;
+    background-color: white;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+} */
