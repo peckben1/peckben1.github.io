@@ -767,6 +767,9 @@
       path: '',
       redirectTo: 'home',
       pathMatch: 'full'
+    }, {
+      path: '**',
+      component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"]
     }];
     let AppRoutingModule = class AppRoutingModule {};
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
