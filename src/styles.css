@@ -83,8 +83,8 @@ ul.posts li {
 } */
 
 body {
-    margin: 10px auto;
-    width: 70%;
+    margin: 10px 15vw;
+    width: 70vw;
     min-height: 100vh;
     /* background-color: #41403c;
     color: #5f5239; */
@@ -97,5 +97,13 @@ body {
 
     nav ul li {
         margin-right: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
