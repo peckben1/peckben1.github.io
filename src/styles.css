@@ -1,8 +1,3 @@
-/* html {
-    min-width: 500px;
-    min-height: 100%;
-} */
-
 * {
     font-family: 'Sorts Mill Goudy', serif;
 }
@@ -18,6 +13,7 @@ nav ul, footer ul {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 footer ul {
     flex-wrap: wrap;
@@ -73,17 +69,8 @@ footer {
     min-height: auto;
 }
 
-/* ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-} */
-
 body {
-    margin: 10px 15vw;
+    margin: 0px 15vw;
     width: 70vw;
     max-width: 1200px;
     min-height: 100vh;
@@ -98,6 +85,13 @@ body {
 
     nav ul li {
         margin-right: 50px;
+    }
+}
+
+@media (min-width: 1715px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

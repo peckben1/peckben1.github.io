@@ -7,18 +7,28 @@
     top : -40px;
 } */
 
-/* below here: WIP floating navbar and footer */
+/* below here: floating navbar and footer */
 
-/* footer {
-    position: fixed;
-    bottom: 20px;
-    width: 70%;
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: -15px;
+    padding-bottom: 20px;
     background-color: white;
 }
 
 nav {
     position: -webkit-sticky;
     position: sticky;
-    top: 10px;
+    top: -8px;
     background-color: white;
-} */
+    padding-top: 15px;
+}
+
+nav ul {
+    margin-top: 0px;
+}
+
+footer ul {
+    margin-bottom: 0px;
+}
