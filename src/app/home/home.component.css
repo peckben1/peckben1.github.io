@@ -21,7 +21,6 @@ h2 {
     justify-content: flex-start;
     width: 25vw;
     min-width: fit-content;
-    /* margin-left: 5vw; */
 }
 
 #textContainer {
@@ -42,15 +41,15 @@ h2 {
 }
 
 #innerDivider {
-    border-top: 1px #999 solid;
-    border-bottom: 1px #999 solid;
+    border-top: 1px var(--hard-grey) solid;
+    border-bottom: 1px var(--hard-grey) solid;
     width: 70%;
     height: 3vh;
     margin: 1vh auto;
 }
 
 #dividerLine {
-    border-bottom: 1px #999 solid;
+    border-bottom: 1px var(--hard-grey) solid;
     height: 1.5vh;
     width: 120%;
     margin-left: -10%;
@@ -62,34 +61,35 @@ h2 {
     max-width: 300px;
     flex: none;
     margin: 20px auto;
+    margin-top: 3vw;
 }
 
 .pillar {
     width: 161px;
     flex: 1;
-    /* height: 40%; */
     margin: 12px auto 12vh;
-    border-top: 1px solid #999;
+    border-top: 1px solid var(--hard-grey);
 }
 
 .pillarcore {
     width: 37px;
     height: 100%;
     margin: auto;
-    border-right: 1px solid #999;
-    border-left: 1px solid #999;
+    border-right: 1px solid var(--hard-grey);
+    border-left: 1px solid var(--hard-grey);
 }
 
 .pillarline {
     width: 18px;
     height: calc(100% + 5px);
-    border-right: 1px solid #999;
+    border-right: 1px solid var(--hard-grey);
 }
 
 @media only screen and (max-width: 950px) {
     #outerContainer {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: flex-end;
     }
 
     #textContainer {
@@ -106,5 +106,9 @@ h2 {
 
     .pillar {
         margin-bottom: 12px;
+    }
+
+    #benphoto {
+        margin-top: 25px;
     }
   }

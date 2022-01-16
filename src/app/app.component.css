@@ -14,14 +14,14 @@ footer {
     position: sticky;
     bottom: -15px;
     padding-bottom: 20px;
-    background-color: white;
+    background-color: var(--background);
 }
 
 nav {
     position: -webkit-sticky;
     position: sticky;
     top: -8px;
-    background-color: white;
+    background-color: var(--background);
     padding-top: 15px;
 }
 

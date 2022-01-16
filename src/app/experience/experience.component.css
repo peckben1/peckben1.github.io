@@ -33,19 +33,29 @@ h5 {
     height: inherit;
     margin-top: 12px;
 
-    border-top: 1px solid #999;
+    border-top: 1px solid var(--hard-grey);
 }
 
 .pillarcore {
     width: 13px;
     height: 100%;
     margin: auto;
-    border-right: 1px solid #999;
-    border-left: 1px solid #999;
+    border-right: 1px solid var(--hard-grey);
+    border-left: 1px solid var(--hard-grey);
 }
 
 .pillarline {
     width: 6px;
     height: calc(100% + 5px);
-    border-right: 1px solid #999;
+    border-right: 1px solid var(--hard-grey);
+}
+
+/* Reverse the hover/underline relationship for experience page links to make them more obvious */
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }

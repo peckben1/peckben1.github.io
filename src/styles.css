@@ -1,6 +1,12 @@
 * {
     font-family: 'Sorts Mill Goudy', serif;
+    --hard-grey: #999;
+    --soft-grey: #d5d5d5;
+    --near-black: #333;
+    --background: white;
+    color: var(--near-black);
 }
+
 
 ul a {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
@@ -13,7 +19,7 @@ nav ul, footer ul {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: var(--background);
 }
 footer ul {
     flex-wrap: wrap;
@@ -28,7 +34,7 @@ nav ul :last-child, footer ul :last-child {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: var(--hard-grey);
 }
 a:hover {
     text-decoration: underline;
@@ -49,7 +55,6 @@ h5 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 
 nav ul {
@@ -57,12 +62,12 @@ nav ul {
 }
 
 nav {
-    border-bottom: solid #999 1px;
+    border-bottom: solid var(--hard-grey) 1px;
     padding-bottom: 0px;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid var(--soft-grey);
     font-size: .8em;
     margin-top: 30px;
     width: 100%;
