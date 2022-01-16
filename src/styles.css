@@ -23,13 +23,19 @@ nav ul, footer ul {
 }
 footer ul {
     flex-wrap: wrap;
+    --footergap: 15px;
+    width: calc(100% + calc(var(--footergap)*2));
+    margin-left: calc(-1*var(--footergap));
 }
-nav ul li, footer ul li {
+footer ul li {
+    margin: 0px var(--footergap);
+}
+nav ul li/*, footer ul li*/ {
     display: inline;
     margin-right: 20px;
     min-width: fit-content;
 }
-nav ul :last-child, footer ul :last-child {
+nav ul :last-child/*, footer ul :last-child*/ {
     margin-right: 0px;
 }
 a {

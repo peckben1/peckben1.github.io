@@ -28,6 +28,7 @@ h2 {
     max-width: 40vw;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 #headerContainer {
@@ -50,7 +51,7 @@ h2 {
 
 #dividerLine {
     border-bottom: 1px var(--hard-grey) solid;
-    height: 1.5vh;
+    height: 50%;
     width: 120%;
     margin-left: -10%;
 }
