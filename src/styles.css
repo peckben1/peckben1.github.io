@@ -3,8 +3,12 @@
     --hard-grey: #999;
     --soft-grey: #d5d5d5;
     --near-black: #333;
-    --background: white;
+    --background: #fffefc;
     color: var(--near-black);
+}
+
+html {
+    background-color: var(--background);
 }
 
 

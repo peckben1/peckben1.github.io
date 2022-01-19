@@ -1,5 +1,6 @@
 .cardstyle {
-    border: solid var(--hard-grey) 1px;
+    border-top: solid var(--hard-grey) 1px;
+    border-bottom: solid var(--hard-grey) 1px;
     padding: 10px;
     margin: 10px;
     display: flex;
